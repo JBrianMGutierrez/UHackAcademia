@@ -48,6 +48,11 @@ public class uiManager : MonoBehaviour
         SceneManager.LoadScene("Character Screen");
     }
 
+	public void PlaySecret()
+	{
+		SceneManager.LoadScene("Level 3");
+	}
+
     public void Pause()
     {
 

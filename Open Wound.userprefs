@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\EnemyMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\uiManager.cs">
     <Files>
-      <File FileName="Assets\scripts\carController.cs" Line="75" Column="4" />
-      <File FileName="Assets\scripts\EnemyDeath.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\Scoring.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\CharacterSelection.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\Spawner.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\GermController.cs" Line="125" Column="39" />
-      <File FileName="Assets\scripts\EnemyMove.cs" Line="4" Column="19" />
+      <File FileName="Assets\scripts\GermController.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\EnemyMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\uiManager.cs" Line="51" Column="24" />
+      <File FileName="Assets\scripts\UI_Controller.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

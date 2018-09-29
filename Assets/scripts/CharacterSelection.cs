@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class CharacterSelection : MonoBehaviour {
 	private List<GameObject> characters;
-	private int selectionIndex = 0;
+	public int selectionIndex;
 	// Use this for initialization
 	void Start () {
-        selectionIndex = PlayerPrefs.SetInt("CharacterSelected");
+		selectionIndex = PlayerPrefs.GetInt("CharacterSelected");
         characters = new List<GameObject> ();
 		foreach (Transform sprites in transform) {
 			characters.Add (sprites.gameObject);

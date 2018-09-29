@@ -69,8 +69,11 @@ public class GermController : MonoBehaviour {
 
 		if (col.gameObject.tag == "Enemy") {
 			//Destroy (gameObject);
+			PlayerPrefs.SetInt("ScorePoints", Scoring.points);
+			PlayerPrefs.SetInt("CharacterSelected", 0);
 			gameObject.SetActive(false);
 			ui.gameOverActivated();
+
 			//am.carSound.Stop();
 		}
 	}
