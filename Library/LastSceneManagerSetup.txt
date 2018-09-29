@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Level 1.unity
+- path: E:/CellEvade/Open Wound/Assets/Scenes/Character Screen.unity
   isLoaded: 1
   isActive: 1

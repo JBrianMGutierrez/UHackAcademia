@@ -69,7 +69,8 @@ public class GermController : MonoBehaviour {
 
 		if (col.gameObject.tag == "Enemy") {
 			//Destroy (gameObject);
-			PlayerPrefs.SetInt("ScorePoints", Scoring.points);
+			if(PlayerPrefs.GetInt("ScorePoints") < Scoring.points)
+				PlayerPrefs.SetInt("ScorePoints", Scoring.points);
 			PlayerPrefs.SetInt("CharacterSelected", 0);
 			gameObject.SetActive(false);
 			ui.gameOverActivated();
